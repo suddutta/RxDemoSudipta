@@ -363,6 +363,7 @@ class MainActivity : AppCompatActivity() {
                 println("Switch Map User Info :: $t")
             }
 
+
             override fun onError(e: Throwable) {
                 println("In Switch Map onError  ${e.localizedMessage}")
             }
